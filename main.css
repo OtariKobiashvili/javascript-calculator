@@ -1,11 +1,7 @@
 body {
 	font-family: 'Graduate', cursive;
 	color: rgb(10,16,23);
-	background-image: url(http://wallpapercave.com/wp/EWb7LFn.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background: grey;
 	min-height: 100%;
 }
 .wrapper1 {
