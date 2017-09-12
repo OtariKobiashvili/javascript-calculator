@@ -1,0 +1,89 @@
+body {
+	font-family: 'Graduate', cursive;
+	color: rgb(10,16,23);
+	background-image: url(http://wallpapercave.com/wp/EWb7LFn.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+.wrapper1 {
+	margin: 100px auto;
+	padding: 10px;
+	width: 350px;
+	height: 425px;
+	background-color: rgb(43,52,79);
+	border-radius: 20px;
+	border: solid 2px black;
+	box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.6);
+}
+.wrapper2 {
+	padding: 10px;
+	background-color: rgb(43,52,79);
+	height: 150px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#calc-title{
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+.mount {
+	background-color: rgb(75,70,70);
+	font-size: 1.15em;
+	color: transparent;
+}
+.mount-left {
+	border-right: 2px solid rgb(57,67,77);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: solid 3px rgba(0,0,0,.6);
+}
+.mount-border {
+	border-right: 2px solid rgb(57,67,77);
+}
+.mount-right {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right: solid 3px rgba(0,0,0,.6);
+}
+.calc-screen {
+	background-color: rgb(65,75,70);
+	height: 50px;
+	font-size: 2.05em;
+	text-align: right;
+	border-radius: 3px;
+	border: 2px solid black;
+	padding-right: 5px;
+	margin-right: 1px;
+}
+.button {
+	border-radius: 6px;
+	border-bottom: 3px solid black;
+	color: white;
+	font-size: 1.25em;
+	margin: 1px;
+	border: 1px solid rgba(43,52,61,.9);
+	background-color: rgb(128,128,128);
+}
+.button:hover {
+	color: white ;
+}
+.button:focus {
+	border: 0;
+}
+.clear-btn {
+	background-color: rgb(175,0,28);
+}
+.ac-btn {
+	background-color: rgb(175,0,28);
+	margin-right: 3px;
+}
+.zero-btn {
+	margin-right: 3px;
+}
+.nums {
+	margin-right: 7px;
+}
